@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['defect']
+
+roboflow:
+  workspace: john-f6krf
+  project: john-f6krf
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/john-f6krf/john-f6krf/dataset
